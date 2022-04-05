@@ -37,4 +37,14 @@ public class MongoMapper extends AbstractMongoDBComon implements IMongoMapper {
 
         return res;
     }
+
+    @Override
+    public int updateSongAddField(String pColNm, String pSinger, String pNickname) throws Exception {
+        return 0;
+    }
+
+    @Override
+    public int updateManySong(String pColNm, String pSinger, String pUpdateSinger, String pUpdateSong) throws Exception {
+        return 0;
+    }
 }
